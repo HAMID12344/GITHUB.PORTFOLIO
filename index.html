@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2, minimum-scale=1">
+  <title>Portfolio - Hamid Ali</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body with Gradient Background */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 30px;
+    }
+
+    /* Frame Container */
+    .container {
+      background: #fff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #0b5c1e, #2575fc);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    /* Section Headings */
+    h2, h3, h4, h5 {
+      background: #f1f1f1;
+      color: #6a11cb;
+      padding: 12px;
+      margin: 25px 0 10px;
+      border-left: 6px solid #2575fc;
+      font-size: 1.3rem;
+      border-radius: 5px;
+    }
+
+    /* Content */
+    section p, section ul, section form {
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+
+    /* Lists */
+    ul {
+      list-style-type: square;
+      padding-left: 40px;
+    }
+
+    ul li {
+      margin: 8px 0;
+      color: #444;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      color: #2575fc;
+      transform: translateX(5px);
+    }
+
+    /* Contact Info */
+    form label {
+      display: block;
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+
+    /* Links */
+    a {
+      display: inline-block;
+      margin: 8px 20px;
+      color: #2575fc;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #6a11cb;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      margin-top: 30px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Hamid Ali - Portfolio</h1>
+    </header>
+
+    <section>
+      <h2>Contact Information</h2>
+      <form>
+        <label><strong>Name:</strong> Hamid Ali</label>
+        <label><strong>Phone:</strong> 0327-3554515</label>
+        <label><strong>Email:</strong> hamidalicubetech.23@gmail.com</label>
+      </form>
+    </section>
+
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        I am a passionate and dedicated professional with expertise in modern technologies. 
+        My core skills include <strong>Web Development</strong>, <strong>Data Science</strong>, 
+        and <strong>Artificial Intelligence</strong>. 
+        I am also skilled in <strong>Video Editing</strong>, allowing me to create engaging and visually appealing content. 
+        I constantly strive to learn new tools and technologies, ensuring that my work remains creative, efficient, and impactful.
+      </p>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>Web Development</li>
+        <li>Data Science</li>
+        <li>Artificial Intelligence</li>
+        <li>Video Editing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Courses</h3>
+      <ul>
+        <li>CS50 – Harvard University</li>
+        <li>Python with AI – Harvard University</li>
+        <li>Google Data Analytics</li>
+        <li>Web Development – Code with Harry</li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>Experience</h4>
+      <ul>
+        <li>Arch Technologies – Data Science</li>
+        <li>Code Sential – Python</li>
+        <li>Work Innovetres – Data Science</li>
+      </ul>
+    </section>
+
+    <section>
+      <h5>Projects</h5>
+      <ul>
+        <li>Shop Lane</li>
+        <li>Customer Segmentation</li>
+        <li>Advice Theta</li>
+        <li>Movie Recommendation</li>
+        <li>Stock Analysis</li>
+      </ul>
+    </section>
+
+    <section>
+      <h5>Profiles</h5>
+      <a href="https://github.com/HAMID12344" target="_blank">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/hamid-ali-a8452829b/" target="_blank">LinkedIn Profile</a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Hamid Ali | Portfolio Website</p>
+    </footer>
+  </div>
+
+</body>
+</html>
